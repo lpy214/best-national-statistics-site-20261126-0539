@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>China in Figures — National Statistics</title>
+<meta name="description" content="China's national statistics in plain sight: population, GDP, prices, trade, energy and regions, each figure with its source and year. Works offline.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="head-inner">
+    <p class="site-title"><a href="#/overview">China in Figures</a></p>
+    <p class="site-tag">National statistics, in plain sight.</p>
+  </div>
+  <nav class="main-nav" id="main-nav" aria-label="Sections">
+    <a href="#/overview" data-route="overview">Overview</a>
+    <a href="#/population" data-route="population">Population</a>
+    <a href="#/economy" data-route="economy">Economy</a>
+    <a href="#/employment" data-route="employment">Employment</a>
+    <a href="#/prices" data-route="prices">Prices</a>
+    <a href="#/trade" data-route="trade">Trade</a>
+    <a href="#/energy" data-route="energy">Energy &amp; Environment</a>
+    <a href="#/regions" data-route="regions">Regions</a>
+    <a href="#/sources" data-route="sources">Sources</a>
+  </nav>
+</header>
+
+<main id="view" aria-live="polite"></main>
+
+<footer class="site-foot">
+  <p>China in Figures — an independent reader of official statistics. Every figure names its
+  source and year; see the <a href="#/sources">Sources</a> page for the full list of releases.
+  This site runs entirely offline from its own files and makes no network requests.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
